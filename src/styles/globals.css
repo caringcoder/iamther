@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color:#858c7c ;
+    color: black;
+    height: 100%;
+}
+.cssbuttons-io {
+    /* position: relative; */
+    /* font-family: inherit; */
+    /* font-weight: 500; */
+    /* font-size: 18px; */
+    /* letter-spacing: 0.05em; */
+    /* border: none; */
+    background: white;
+    color: black;
+    /* overflow: hidden; */
+    border-radius: 34px;
+   }
+   
+   .cssbuttons-io svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+   }
+  
+   .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+   }
+   
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+.icon{
+    position: absolute;
+    right: 4rem;
+}
+   
+   
+   
+   
+   
